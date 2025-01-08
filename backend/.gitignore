@@ -1,0 +1,81 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+
+# Coverage directory
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# npm cache
+.npm/
+
+# eslint cache
+.eslintcache
+
+# Output directories
+dist/
+build/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+
+# Miscellaneous
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore config files
+config/config.js
+config/config.local.js
+
+# Ignore build and deployment files
+*.bak
+*.orig
+*.save
+*.swp
+*.swo
+*.swm
+*.un~
+
+# Ignore backend specific files
+backend/config/config.js
+backend/config/config.local.js
+
+# Ignore frontend specific files
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
